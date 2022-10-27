@@ -14,7 +14,7 @@ char *cap_string(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		flag = 0;
-		
+
 		if (i == 0)
 		{
 			flag = 1;

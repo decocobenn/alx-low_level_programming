@@ -15,7 +15,7 @@ int **s, r, c;
 	{
 		return (NULL);
 	}
-	
+
 	s = malloc(sizeof(int *) * height);
 	if (s == NULL)
 	{
@@ -25,7 +25,7 @@ int **s, r, c;
 	for (r = 0; r < height; r++)
 	{
 		s[r] = malloc(sizeof(int) * width);
-	
+
 		if (s[r] == NULL)
 		{
 			for (; r >= 0; r--)
@@ -42,4 +42,5 @@ int **s, r, c;
 		}
 	}
 	return (s);
+
 }
